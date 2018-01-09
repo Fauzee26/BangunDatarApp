@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="fauzi.hilmy.bangundatarapp.MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#d85252"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="match_parent"
+            android:layout_height="31dp"
+            android:layout_marginBottom="20dp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            android:layout_marginTop="25dp"
+            android:gravity="center"
+            android:text="Aplikasi Bangun Datar"
+            android:textSize="20sp"
+            android:textStyle="normal|bold|italic"
+            tools:layout_editor_absoluteX="73dp"
+            tools:layout_editor_absoluteY="34dp" />
+
+        <Button
+            android:id="@+id/btnPersegi"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            android:layout_marginTop="30dp"
+            android:background="#13f17b"
+            android:text="Persegi" />
+
+        <Button
+            android:id="@+id/btnPersegiPanjang"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            android:layout_marginTop="10dp"
+            android:background="#13f17b"
+            android:text="Persegi Panjang" />
+
+        <Button
+            android:id="@+id/btnLingkaran"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            android:layout_marginTop="10dp"
+            android:background="#13f17b"
+            android:text="Lingkaran" />
+    </LinearLayout>
+
+</android.support.constraint.ConstraintLayout>

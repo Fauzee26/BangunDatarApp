@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="fauzi.hilmy.bangundatarapp.SegitigaActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="match_parent"
+            android:layout_height="37dp"
+            android:layout_margin="10dp"
+            android:gravity="top|bottom|center"
+            android:text="Hitung Keliling dan Luas Segitiga"
+            android:textColorLink="@android:color/background_dark"
+            android:textSize="20sp"
+            tools:layout_editor_absoluteX="68dp"
+            tools:layout_editor_absoluteY="16dp" />
+
+        <EditText
+            android:id="@+id/etPanjang"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:ems="10"
+            android:hint="Masukkan Panjang"
+            android:inputType="number" />
+
+        <EditText
+            android:id="@+id/etLebar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:ems="10"
+            android:hint="Masukkan Luas"
+            android:inputType="number" />
+
+        <EditText
+            android:id="@+id/etA"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:ems="10"
+            android:hint="Masukkan Sisi A"
+            android:inputType="number" />
+
+        <EditText
+            android:id="@+id/etB"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:ems="10"
+            android:hint="Masukkan Sisi B"
+            android:inputType="number" />
+
+        <EditText
+            android:id="@+id/etC"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:ems="10"
+            android:hint="Masukkan Sisi C"
+            android:inputType="number" />
+
+        <Button
+            android:id="@+id/btnHitungSegitiga"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:text="Submit" />
+
+        <TextView
+            android:id="@+id/txtHasil"
+            android:layout_width="match_parent"
+            android:layout_height="42dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:gravity="center"
+            android:text="Your Result Is In Here"
+            android:textSize="18sp" />
+    </LinearLayout>
+
+</android.support.constraint.ConstraintLayout>

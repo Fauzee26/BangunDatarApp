@@ -38,14 +38,14 @@
             android:text="Persegi" />
 
         <Button
-            android:id="@+id/btnPersegiPanjang"
+            android:id="@+id/btnSegitiga"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginLeft="15dp"
             android:layout_marginRight="15dp"
             android:layout_marginTop="10dp"
             android:background="#13f17b"
-            android:text="Persegi Panjang" />
+            android:text="Segitiga" />
 
         <Button
             android:id="@+id/btnLingkaran"
@@ -56,6 +56,16 @@
             android:layout_marginTop="10dp"
             android:background="#13f17b"
             android:text="Lingkaran" />
+
+        <Button
+            android:id="@+id/btnJajarGenjang"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            android:layout_marginTop="10dp"
+            android:background="#13f17b"
+            android:text="Jajaran Genjang" />
     </LinearLayout>
 
 </android.support.constraint.ConstraintLayout>
